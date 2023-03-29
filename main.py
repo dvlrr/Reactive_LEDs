@@ -37,11 +37,9 @@ def ultra():
     #print("Distance to sensor is ", distance, "cm")
 
     if distance < 100:
-
         return distance
 
     else:
-
         return 100
 
 while True:
@@ -51,7 +49,6 @@ while True:
     dimval = 100 - prox
 
     pixels.brightness(dimval)
-    #print(ultra())
     print(dimval)
     print(prox)
     pixels.fill(blue)
